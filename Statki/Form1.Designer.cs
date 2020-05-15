@@ -129,7 +129,7 @@
             this.button99 = new System.Windows.Forms.Button();
             this.button100 = new System.Windows.Forms.Button();
             this.CzteroMasztowce = new System.Windows.Forms.TextBox();
-            this.Proby = new System.Windows.Forms.TextBox();
+            this.tbProby = new System.Windows.Forms.TextBox();
             this.JednoMasztowce = new System.Windows.Forms.TextBox();
             this.DwuMasztowce = new System.Windows.Forms.TextBox();
             this.TrzyMasztowce = new System.Windows.Forms.TextBox();
@@ -138,6 +138,8 @@
             this.lbl3 = new System.Windows.Forms.Label();
             this.lbl4 = new System.Windows.Forms.Label();
             this.lbl5 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.tbTrafioneStatki = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // button1
@@ -1148,18 +1150,18 @@
             this.CzteroMasztowce.Size = new System.Drawing.Size(103, 20);
             this.CzteroMasztowce.TabIndex = 100;
             // 
-            // Proby
+            // tbProby
             // 
-            this.Proby.Enabled = false;
-            this.Proby.Location = new System.Drawing.Point(437, 271);
-            this.Proby.Name = "Proby";
-            this.Proby.Size = new System.Drawing.Size(103, 20);
-            this.Proby.TabIndex = 101;
+            this.tbProby.Enabled = false;
+            this.tbProby.Location = new System.Drawing.Point(431, 380);
+            this.tbProby.Name = "tbProby";
+            this.tbProby.Size = new System.Drawing.Size(103, 20);
+            this.tbProby.TabIndex = 101;
             // 
             // JednoMasztowce
             // 
             this.JednoMasztowce.Enabled = false;
-            this.JednoMasztowce.Location = new System.Drawing.Point(437, 212);
+            this.JednoMasztowce.Location = new System.Drawing.Point(437, 210);
             this.JednoMasztowce.Name = "JednoMasztowce";
             this.JednoMasztowce.Size = new System.Drawing.Size(103, 20);
             this.JednoMasztowce.TabIndex = 102;
@@ -1201,7 +1203,7 @@
             // lbl3
             // 
             this.lbl3.AutoSize = true;
-            this.lbl3.Location = new System.Drawing.Point(415, 143);
+            this.lbl3.Location = new System.Drawing.Point(409, 143);
             this.lbl3.Name = "lbl3";
             this.lbl3.Size = new System.Drawing.Size(125, 13);
             this.lbl3.TabIndex = 107;
@@ -1210,7 +1212,7 @@
             // lbl4
             // 
             this.lbl4.AutoSize = true;
-            this.lbl4.Location = new System.Drawing.Point(415, 194);
+            this.lbl4.Location = new System.Drawing.Point(409, 194);
             this.lbl4.Name = "lbl4";
             this.lbl4.Size = new System.Drawing.Size(125, 13);
             this.lbl4.TabIndex = 108;
@@ -1219,17 +1221,36 @@
             // lbl5
             // 
             this.lbl5.AutoSize = true;
-            this.lbl5.Location = new System.Drawing.Point(415, 255);
+            this.lbl5.Location = new System.Drawing.Point(409, 364);
             this.lbl5.Name = "lbl5";
             this.lbl5.Size = new System.Drawing.Size(85, 13);
             this.lbl5.TabIndex = 109;
             this.lbl5.Text = "Wszystkich prób";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(409, 313);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(74, 13);
+            this.label1.TabIndex = 111;
+            this.label1.Text = "Trafione statki";
+            // 
+            // tbTrafioneStatki
+            // 
+            this.tbTrafioneStatki.Enabled = false;
+            this.tbTrafioneStatki.Location = new System.Drawing.Point(437, 329);
+            this.tbTrafioneStatki.Name = "tbTrafioneStatki";
+            this.tbTrafioneStatki.Size = new System.Drawing.Size(103, 20);
+            this.tbTrafioneStatki.TabIndex = 110;
             // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(566, 444);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.tbTrafioneStatki);
             this.Controls.Add(this.lbl5);
             this.Controls.Add(this.lbl4);
             this.Controls.Add(this.lbl3);
@@ -1238,7 +1259,7 @@
             this.Controls.Add(this.TrzyMasztowce);
             this.Controls.Add(this.DwuMasztowce);
             this.Controls.Add(this.JednoMasztowce);
-            this.Controls.Add(this.Proby);
+            this.Controls.Add(this.tbProby);
             this.Controls.Add(this.CzteroMasztowce);
             this.Controls.Add(this.button81);
             this.Controls.Add(this.button82);
@@ -1452,7 +1473,7 @@
         private System.Windows.Forms.Button button99;
         private System.Windows.Forms.Button button100;
         private System.Windows.Forms.TextBox CzteroMasztowce;
-        private System.Windows.Forms.TextBox Proby;
+        private System.Windows.Forms.TextBox tbProby;
         private System.Windows.Forms.TextBox JednoMasztowce;
         private System.Windows.Forms.TextBox DwuMasztowce;
         private System.Windows.Forms.TextBox TrzyMasztowce;
@@ -1461,6 +1482,8 @@
         private System.Windows.Forms.Label lbl3;
         private System.Windows.Forms.Label lbl4;
         private System.Windows.Forms.Label lbl5;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox tbTrafioneStatki;
     }
 }
 
